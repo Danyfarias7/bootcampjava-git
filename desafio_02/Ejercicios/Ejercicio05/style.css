@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  }
+  
+  
+  .container {
+  width: 900px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  border: solid blue 2px;
+
+  
+  }
+  
+  .container-heading{
+    background-color: #04146c;
+    width: 100%;
+    
+    
+  }
+  
+  .container-heading p{
+  font-size: 39px;
+  text-align: center;
+  color: white;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 900;
+ 
+  
+  }
+  
+  .container-main-heading {
+  /* font-size: 88px; */
+  font-size: 55px;
+  padding: 0 70px;
+  text-align: center;
+   color: #04146c;
+   font-family: 'Source Sans 3', sans-serif;
+  
+  }
+  
+  .container-text-photo{
+  text-align: center;
+
+  width: 68%;
+  margin: 0 auto;
+  }
+  
+  .container-text-photo img {
+    width: 550px;
+    border: solid black 1px;
+    border-right: solid black 2px;
+    margin-top: 30px;
+  }
+  
+  .container-text-photo p span {
+   font-weight: bold;
+  }
+  
+  .container-text-photo p:nth-child(1) {
+  font-size: 26px;
+  }
+  
+    
+  .container-last-text{
+    background-color: #edf7ff ;
+    width: 100%;
+    }
+    
+    .container-last-text p {
+      width: 570px;
+      text-align: center;
+      font-size: 24px;
+      margin: 0 auto;
+    }
+    
+    .espacio{
+    height: 20px;
+    }

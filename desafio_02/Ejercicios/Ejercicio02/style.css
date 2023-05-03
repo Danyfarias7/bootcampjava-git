@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  }
+  
+  .box- {
+  background-color: blue;
+  height: 750px;
+  width: 900px;
+  margin: 40px auto;
+  border-top: solid transparent 1px;
+  }
+  
+  
+  .box {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    align-items: center;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+  }
+  
+  .box p:nth-child(1){
+  width: 100%;
+  font-size: 66px;
+  text-align: center;
+  
+  
+  background-color: white;
+  color: #0a2ff1  ;
+  }
+  
+  .box p:nth-child(2){
+    width: 100%;
+    font-size: 148px;
+    text-align: center;
+    
+    background-color: black;
+    color: white;
+    }
+    
+    .box p:nth-child(3){
+      width: 100%;
+      font-size: 217px;
+      text-align: center;
+      
+      background-color: #fff;
+      color: black;
+      }
+      
+    
+        
+        .box p:nth-child(4) span:nth-child(2) {
+        font-size: 60px;
+          background-color: black;
+          color: white;
+          font-weight: bold;
+        }
+        
+        .box p:nth-child(4) span:nth-child(1) {
+            color: #0a2ff1;
+            font-weight: bold;
+          }
+          
+          .box p:nth-child(4){
+            width: 100%;
+          font-size: 48px;
+          font-weight: normal;
+            text-align: center;
+        
+            background-color: white;
+            color: blue;
+            }
+          
+          
+        
+        .box p:nth-child(5){
+          width: 100%;
+          font-size: 58px;
+          font-weight: normal;
+          text-align: center;
+      
+          background-color: white;
+          color: blue;
+          }

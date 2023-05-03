@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=MuseoModerno:wght@700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.box{
+  width: 1100px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+ 
+  
+  border-top: #8a9af1 5px solid;
+  background-color: #edf7ff;
+  
+}
+
+.box-header, .box-paragraph, .box-list{
+  margin-left: 7%;
+  margin-right: 5%;
+  width: 100%;
+
+}
+
+.box-header h1 {
+font-size: 117.33333333333333px;
+color: #0a2ff1 ;
+font-family: 'MuseoModerno';
+}
+
+.box-header h2{
+font-size: 52px;
+font-family: 'Asap', sans-serif;
+color: #0a2ff1;
+}
+
+.box-paragraph {
+width: 85%;
+
+}
+
+.box-paragraph p {
+  overflow-wrap: break-word;
+  font-size: 33.33px;
+}
+
+.box-paragraph p:first-child {
+  margin-bottom: 20px;
+}
+
+.box-paragraph span{
+  font-weight: bold;
+}
+
+.box-list h2{
+font-size: 48px;
+color: #0a2ff1;
+}
+
+.box-list ul {
+font-size: 33.33px;
+font-family: 'Asap', sans-serif;
+font-weight: bold;
+margin-left: 30px;
+}
+
+
+
+.box-footer h3 {
+ /* font-size: 198.6px; MUY GRANDE  */
+ font-size: 130px;
+  font-family: 'MuseoModerno';
+  color: #8a9af1;
+  margin: 5px;
+
+}
