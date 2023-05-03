@@ -1,0 +1,5 @@
+Solucion 1 
+Hago un git stash en la rama custom-navbar para guardar los cambios sin hacer commit, y con git checkout o git switch me cambio a la rama master y ahí desde la consola (rm status.js ) o directo en la carpeta borro el archivo status.js, luego vuelvo a cambiarme de rama y con git stash apply vuelvo a los cambios que tenia antes de irme de la rama y puedo continuar trabajando
+
+Solucion 2 
+Me cambio a la rama master después de haber hecho un commit en la rama front-react y hago un merge en master, git merge front-react, y listo, asumiendo que no habran conflictos
